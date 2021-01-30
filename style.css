@@ -124,7 +124,7 @@ body{
  transition-duration: 0.5s;
 }      
 
-li{
+.main__nav li{
  padding: 10px 20px 10px 20px;
  display: inline;
  vertical-align: middle;
