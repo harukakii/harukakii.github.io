@@ -511,6 +511,12 @@ footer ul li:hover{
  z-index: 10; 
 } 
 
+.page__top img{
+ width: 100px;
+ height: auto;
+} 
+
+
 /* fixedアニメーション設定 */
 .page__top:hover {
  -webkit-animation:hurihuri 0.5s infinite linear alternate;
