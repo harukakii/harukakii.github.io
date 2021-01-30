@@ -429,7 +429,6 @@ figure img{
   margin: 40px auto 40px auto;
   letter-spacing: -0.1rem;
   position: relative;
-
 }
 
 .to__about__container:before,
@@ -527,9 +526,8 @@ footer ul li:hover{
 
 .page__top img{
  width: 100px;
- height: a;
+ height: auto;
 } 
-
 
 /* fixedアニメーション設定 */
 .page__top:hover {
