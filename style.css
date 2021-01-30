@@ -98,12 +98,13 @@ body{
  width: auto;
 }
 
-.main__nav li{
+.main__nav li a{
+  padding: 10px 20px 10px 20px;
  background-image: url(img/niku2.png);
  background-size: 30px 30px;
  background-repeat: no-repeat;
  background-position: center center;
- border-left: 4px dotted #FFFEF9; 
+ 
  font-size: 1.2rem;
  margin: 0;
  text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
@@ -112,11 +113,13 @@ body{
              -1px 0 0 #FFF, 1px 0 0 #FFF;
 }
 
+
+
 .nav__line{
  border-right: 4px dotted #fffff0; 
 }
 
-.main__nav li:hover{
+.main__nav li a:hover{
  background-size: 40px 40px;
  transition-duration: 0.5s;
 }      
@@ -125,6 +128,8 @@ li{
  padding: 10px 20px 10px 20px;
  display: inline;
  vertical-align: middle;
+
+border-left: 4px dotted #FFFEF9; 
 }
 
 /* キービジュアル設定 */
@@ -492,7 +497,7 @@ footer ul li:hover{
  top: -30px;
 }
 
-.footer__list{
+.footer__list a{
  background-image: url(img/niku1.png);
  background-repeat: no-repeat;
  background-size: contain;
