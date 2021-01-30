@@ -700,6 +700,10 @@ figure img{
  font-size: 1rem;
 }
 
+.to__about__container{
+  width: 100%;
+}
+
 }
 
 @media screen and (max-width: 376px){
