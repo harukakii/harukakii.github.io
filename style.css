@@ -99,7 +99,7 @@ body{
 }
 
 .main__nav li a{
-  padding: 10px 20px 10px 20px;
+ padding: 10px 20px;
  background-image: url(img/niku2.png);
  background-size: 30px 30px;
  background-repeat: no-repeat;
@@ -125,7 +125,7 @@ body{
 }      
 
 .main__nav li{
- padding: 10px 20px 10px 20px;
+ /* padding: 10px 20px 10px 20px; */
  display: inline;
  vertical-align: middle;
 
@@ -497,12 +497,15 @@ footer ul li:hover{
  top: -30px;
 }
 
-.footer__list a{
- background-image: url(img/niku1.png);
+
+.footer__nav li a{
+ padding: 10px 20px;
+  background-image: url(img/niku1.png);
  background-repeat: no-repeat;
  background-size: contain;
  padding-left: 1.5rem;
 }
+
 
 /* copyright設定 */
 .copyright{
