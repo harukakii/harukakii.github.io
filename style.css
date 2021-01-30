@@ -23,6 +23,7 @@ a.no-color-change, a:visited {
 }
 
 a{
+ color: #323232;
  text-decoration: none;
 }
 
@@ -485,7 +486,7 @@ footer ul li:hover{
 .footer__bg{
  width: 100%;
  height: 50px;
- background-image: url(img/foo.svg);
+ background-image: url(img/foo.png);
  background-repeat:repeat-x;
  position: absolute;
  top: -30px;
@@ -513,7 +514,7 @@ footer ul li:hover{
 
 .page__top img{
  width: 100px;
- height: auto;
+ height: a;
 } 
 
 
@@ -1314,6 +1315,10 @@ font-weight: normal;
  width: 60%;
 }
 
+.about__comparison01{
+  text-align: center;
+}
+
 }
 
 @media screen and (max-width: 375px){
@@ -1338,19 +1343,12 @@ font-weight: normal;
 
 /* -------------- */
 /* secret.html CSS */
-
 .secret__wrapper{
  cursor: url(img/niku4.png),auto;
 } 
 
 .box100{
   height: 300px;
-}
-
-/* contents レスポンシブ */
-@media screen and (max-width: 968px){
-  /* ここに968px以下向けのスタイルを記述 */
-
 }
 
 
