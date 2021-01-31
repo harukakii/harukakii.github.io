@@ -72,12 +72,12 @@ body{
 
 /* ヘッダー設定 */
 .header{
+ width: 100%;
+ padding: 20px 50px;
  box-sizing: border-box;
  display: flex;
  justify-content: space-between;
  align-items: center;
- width: 100%;
- padding: 20px 50px;
 }
 
 .h1{
@@ -126,11 +126,9 @@ body{
 }      
 
 .main__nav li{
- /* padding: 10px 20px 10px 20px; */
  display: inline;
  vertical-align: middle;
-
-border-left: 4px dotted #FFFEF9; 
+ border-left: 4px dotted #FFFEF9; 
 }
 
 /* キービジュアル設定 */
@@ -504,12 +502,11 @@ footer ul li:hover{
 }
 
 .footer__nav li a{
-  background-image: url(img/niku1.png);
+ background-image: url(img/niku1.png);
  background-repeat: no-repeat;
  background-size: contain;
  padding-left: 1.5rem;
 }
-
 
 /* copyright設定 */
 .copyright{
@@ -586,11 +583,6 @@ html{
  text-align: center;
 }
 
-/* .header li{
- margin: 0;
- text-align: center;
-} */
-
 .profile__container{
  box-sizing: border-box;
  flex-direction: column;
@@ -629,13 +621,14 @@ th{
  flex-direction: column;
 }
 
+.to__about__container{
+  width: 80%;
+}
+
 }
 
 @media screen and (max-width: 630px){
   /* ここに600px以下向けのスタイルを記述 */
-.to__about__container{
-  width: 100%;
-}
 
 }
 
