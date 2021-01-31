@@ -577,9 +577,9 @@ html{
  font-size: 1.1rem;
 }
 
-.main__nav{
+/* .main__nav{
  display: block;
-}
+} */
 
 .main__nav li{
  margin-bottom: 15px;
@@ -627,6 +627,7 @@ th{
   /* ここに760px以下向けのスタイルを記述 */
 .footer__nav{
  flex-direction: column;
+ display: block;
 }
 
 }
