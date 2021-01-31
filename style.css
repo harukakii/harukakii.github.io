@@ -613,6 +613,10 @@ th{
  height: auto;
 }
 
+.to__about__container{
+  width: 80%;
+}
+
 }
 
 @media screen and (max-width: 760px){
@@ -621,9 +625,7 @@ th{
  flex-direction: column;
 }
 
-.to__about__container{
-  width: 80%;
-}
+
 
 }
 
