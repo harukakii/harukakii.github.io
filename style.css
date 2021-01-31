@@ -561,15 +561,13 @@ footer ul li:hover{
 @media screen and (max-width: 780px){
   /* ここに780px以下向けのスタイルを記述 */
 .header li{
- /* display: block;
- border-style: none; */
-  display: inline-flex;
-  display: -webkit-inline-flex;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
+ display: block;
+ border-style: none;
 }
 
+.footer__nav li{
+ display: block;
+}
 
 
 }
