@@ -129,8 +129,7 @@ body{
  /* padding: 10px 20px 10px 20px; */
  display: inline;
  vertical-align: middle;
-
-border-left: 4px dotted #FFFEF9; 
+ border-left: 4px dotted #FFFEF9; 
 }
 
 /* キービジュアル設定 */
@@ -500,7 +499,7 @@ footer ul li:hover{
 
 .footer__nav li{
  padding: 10px 20px;
-
+ display:inline-block;
 }
 
 .footer__nav li a{
