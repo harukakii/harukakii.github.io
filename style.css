@@ -627,8 +627,6 @@ th{
   /* ここに760px以下向けのスタイルを記述 */
 .footer__nav{
  flex-direction: column;
- display: block;
- text-align: center;
 }
 
 }
